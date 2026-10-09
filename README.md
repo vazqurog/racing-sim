@@ -1,9 +1,4 @@
-## Delivery Driver
-    - Topdown 2D, 
-    - Progression based 
-
-
-## Time attack race
+# Racing Simulator 
 - System
     - Core game loop 
     - Progression loop
