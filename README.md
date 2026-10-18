@@ -11,12 +11,11 @@
 - System Context
     - The racing game itself
     - Player
-    - Godot / C#
+    - Unity
     - Blender (Asset pipelines)
 
 - Irrelevant 
     - Internet connection 
-
 
 Project Idea: Racing Simulator 
 
@@ -24,6 +23,6 @@ System: The core game loop, the progression loop, vehicle control and physics,
 asset design, audio design, internal API, database
 
 
-System Context: The game itself, an actual human player, Godot / C#, Blender (asset pipeline)
+System Context: The game itself, an actual human player, Unity / C#, Blender (asset pipeline)
 
 Irrelevant Enviorment: Internet connecton, multiplayer
