@@ -27,7 +27,7 @@ CIS 350 Semester Project
 
 ## Getting Started
 
-1. Install [Unity Hub](https://unity.com/download) and **Unity 6000.6.5f1 **. Everyone must use the same editor version to avoid project conflicts.
+1. Install [Unity Hub](https://unity.com/download) and **Unity 6000.6.5f1** . Everyone must use the same editor version to avoid project conflicts.
 2. Clone the repo:
    ```
    git clone https://github.com/vazqurog/racing-sim.git
