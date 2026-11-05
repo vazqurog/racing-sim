@@ -1,1 +1,100 @@
+# RACING SIMULATOR - UNITY 6
+
+# UNITY - GENERATED FILES
+/unity_project/[Ll]ibrary/
+/unity_project/[Tt]emp/
+/unity_project/[Oo]bj/
+/unity_project/[Bb]uild/
+/unity_project/[Bb]uilds/
+/unity_project/[Ll]ogs/
+/unity_project/[Uu]ser[Ss]ettings/
+/unity_project/[Mm]emoryCaptures/
+/unity_project/[Rr]ecordings/
+
+# UNITY - CRASH REPORTS
+sysinfo.txt
+
+# UNITY - GENERATED PROJECT FILES
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.rsuser
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# UNITY - GENERATED META FILES
+*.csproj.meta
+*.unityproj.meta
+*.sln.meta
+*.slnx.meta
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# UNITY - ADDRESSABLES
+/unity_project/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/unity_project/[Aa]ssets/[Ss]treamingAssets/aa/
+
+# UNITY - BUILD OUTPUTS
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# VISUAL STUDIO
+.vs/
+*.DotSettings.user
+
+# VISUAL STUDIO CODE
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# JETBRAINS RIDER
+.idea/
+
+# BLENDER - TEMPORARY AND BACKUP FILES
+*.blend1
+*.blend2
+*.blend3
+*.blend@
+*.blend@*
+blendcache_*/
+
+# WINDOWS
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# MACOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# TEMPORARY FILES
+*.tmp
+*.orig
+*.bak
+*.swp
+*.swo
+*~
+
+# GIT MERGE BACKUPS
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
