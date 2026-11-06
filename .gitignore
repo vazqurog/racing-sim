@@ -98,3 +98,4 @@ $RECYCLE.BIN/
 *.BASE.*
 *.LOCAL.*
 *.REMOTE.*
+!/models/RacingTrack.unitypackage
