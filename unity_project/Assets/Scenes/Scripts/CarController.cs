@@ -103,10 +103,13 @@ public class CarController : MonoBehaviour
         foreach(var wheel in wheels)
         {
             Quaternion rot;
+            Quaternion rotationOffset = new Quaternion(0f,90f,0f,0f);
             Vector3 pos;
             wheel.wheelCollider.GetWorldPose(out pos, out rot);
             wheel.wheelModel.transform.position = pos;
-            wheel.wheelModel.transform.rotation = rot;
+            // 90 makes the left side correct, -90 makes the right side correct
+            // fix model in blender ?
+            wheel.wheelModel.transform.rotation = rot * Quaternion.Euler(0f, -90f, 0f);
 
         }
     }
