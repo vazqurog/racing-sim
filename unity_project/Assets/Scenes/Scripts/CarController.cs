@@ -9,6 +9,7 @@ public class CarController : MonoBehaviour
         Front,
         Rear
     }
+    // Serlalizable allows the following variables to become accessible for editing and viewing in the unity editor. 
     [Serializable]
     public struct Wheel
     {
@@ -42,24 +43,31 @@ public class CarController : MonoBehaviour
         carRb.centerOfMass = _centerOfMass;
     }
     
+    // The Update() function run once per frame and captures input and animations
     void Update()
     {
         GetInputs();
         AnimateWheels();
     }
 
+    // The FixedUpdate() function is where most physic related things go since this function runs every 0.02 seconds. 
     void FixedUpdate()
     {
         Move();
         Steer();
         Brake();
     }
+
+    // Scans for inputs 
+    // vertical = W, S
+    // horizontal = A, D 
     void GetInputs()
     {
         moveInput = Input.GetAxis("Vertical");
         steerInput = Input.GetAxis("Horizontal");
     }
 
+    // Update the torque of each wheel 
     void Move()
     {
         foreach (var wheel in wheels)
@@ -68,6 +76,7 @@ public class CarController : MonoBehaviour
         }
     }
 
+    // Steer() handles the logic for turning the vehicle, this updates the steeting angle in the wheelCollider 
     void Steer()
     {
         foreach (var wheel in wheels)
@@ -80,6 +89,8 @@ public class CarController : MonoBehaviour
         }
     }
 
+    // FIXME: update the controls.md docs to match the expected controls
+    // Brake() scans for the " brake " input the slows the vehicle down
     void Brake()
     {
         if(Input.GetKey(KeyCode.Space))
@@ -98,6 +109,8 @@ public class CarController : MonoBehaviour
         }
     }
 
+    // AnimateWheels() updates the roation and position of each wheel to handle animations.
+    // this handles both moving roations and turning position
     void AnimateWheels()
     {
         foreach(var wheel in wheels)
